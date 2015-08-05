@@ -101,6 +101,12 @@
           aggregate_min: 'Agg: Min',
           aggregate_avg: 'Agg: Avg',
           aggregate_remove: 'Agg: Remove'
+        },
+        validate: {
+          error: 'Error:',
+          minLength: 'Value should be at least THRESHOLD characters long.',
+          maxLength: 'Value should be at most THRESHOLD characters long.',
+          notNull: 'A value is needed.'
         }
       });
       return $delegate;
